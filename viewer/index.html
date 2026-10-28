@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="수학 연구 노트와 위키를 읽는 로컬 연구실">
+  <title>수학 연구실 · Math Playground</title>
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="stylesheet" href="/assets/vendor/katex/katex.min.css">
+  <link rel="stylesheet" href="/assets/style.css">
+  <script defer src="/assets/vendor/marked/marked.umd.js"></script>
+  <script defer src="/assets/vendor/dompurify/purify.min.js"></script>
+  <script defer src="/assets/vendor/katex/katex.min.js"></script>
+  <script type="module" src="/assets/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="#/notes"><span class="brand-symbol" aria-hidden="true">∑</span><span>수학 연구실<small>MATH PLAYGROUND</small></span></a>
+    <div class="sidebar-label">WORKSPACE</div>
+    <nav aria-label="주 메뉴">
+      <a href="#/notes" data-nav="notes"><span aria-hidden="true">▦</span>연구 노트<span id="nav-count" class="nav-count">—</span></a>
+      <a href="#/doc/wiki/Home.md" data-nav="wiki/Home.md"><span aria-hidden="true">⌂</span>위키 홈</a>
+      <a href="#/doc/wiki/Questions.md" data-nav="wiki/Questions.md"><span aria-hidden="true">?</span>열린 질문</a>
+      <a href="#/doc/wiki/ResearchLog.md" data-nav="wiki/ResearchLog.md"><span aria-hidden="true">↗</span>연구 기록</a>
+    </nav>
+    <div class="sidebar-label second-label">REFERENCE</div>
+    <nav aria-label="참고 문서">
+      <a href="#/pages" data-nav="pages"><span aria-hidden="true">≡</span>모든 문서</a>
+      <a href="#/doc/wiki/Scoring.md" data-nav="wiki/Scoring.md"><span aria-hidden="true">◇</span>점수 기준</a>
+      <a href="#/doc/wiki/Conventions.md" data-nav="wiki/Conventions.md"><span aria-hidden="true">§</span>연구 규약</a>
+    </nav>
+    <div class="sidebar-note"><span class="tiny-formula">질문 → 관찰 → 증명</span><p>하나의 질문에서<br>다음 탐구가 시작됩니다.</p></div>
+    <div class="local-state"><span class="status-dot"></span><div>로컬 위키<small id="sync-status" role="status">파일을 불러오는 중</small></div></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><div class="topbar-left"><button id="menu-toggle" class="icon-button" aria-label="메뉴 열기" aria-expanded="false">☰</button><span class="workspace-name">수학 탐구 위키</span><span class="slash">/</span><span id="breadcrumb">연구 노트</span></div><button id="refresh" class="refresh-button"><span aria-hidden="true">↻</span> 새로고침</button></header>
+    <main id="main" tabindex="-1"><div class="loading">연구 노트를 불러오고 있습니다…</div></main>
+    <footer class="footer"><span>Math Playground</span><span>탐구를 기록하고, 다음 질문으로.</span></footer>
+  </div>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>
