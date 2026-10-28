@@ -17,6 +17,7 @@
 
 | 연구 | 핵심 결과 | 검토 |
 | --- | --- | --- |
+| [로그 오목성·날카로운 경계·단봉성](../research/2026-10-29-turan-unimodality/note.md) | Q-006·007: 이웃 항의 날카로운 비율 경계, 지수 방향의 단봉성, 적률에 의한 이전 하계 개선. | [독립 검토 통과](../research/2026-10-29-turan-review/review.md) |
 | [교대 이항합의 양수 표현과 안정적인 계산](../research/2026-10-29-reciprocal-binomial/note.md) | 역수 거듭제곱 합의 일반식, 양수성, 상하계, 점근식. 직접 실수 계산의 상쇄 오차도 재현. | [독립 검토 통과](../research/2026-10-29-reciprocal-review/review.md) |
 | [실수 지수와 비균등 차분](../research/2026-10-29-real-power-differences/note.md) | 모든 실수 지수에서 영점·부호를 분류. 양의 비균등 차분 간격에도 확장. | [독립 검토 통과](../research/2026-10-29-reciprocal-review/review-real.md) |
 

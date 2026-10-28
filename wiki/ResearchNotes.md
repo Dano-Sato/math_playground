@@ -9,6 +9,7 @@
 | [유한 차분으로 보는 교대 이항합](../research/2026-10-29-finite-differences/note.md) | [meta.json](../research/2026-10-29-finite-differences/meta.json) | 대기 |
 | [교대 이항합의 양수 표현과 안정적인 계산](../research/2026-10-29-reciprocal-binomial/note.md) | [meta.json](../research/2026-10-29-reciprocal-binomial/meta.json) | [독립 검토 통과](../research/2026-10-29-reciprocal-review/review.md) |
 | [실수 지수와 비균등 차분](../research/2026-10-29-real-power-differences/note.md) | [meta.json](../research/2026-10-29-real-power-differences/meta.json) | [독립 검토 통과](../research/2026-10-29-reciprocal-review/review-real.md) |
+| [로그 오목성·날카로운 경계·단봉성](../research/2026-10-29-turan-unimodality/note.md) | [meta.json](../research/2026-10-29-turan-unimodality/meta.json) | [독립 검토 통과](../research/2026-10-29-turan-review/review.md) |
 
 ## 평가 정보의 원본
 
