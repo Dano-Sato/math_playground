@@ -12,6 +12,7 @@
 | 조합론 · 해석학 · 수치 계산 | [교대 이항합의 양수 표현과 안정적인 계산](../research/2026-10-29-reciprocal-binomial/note.md) | 증명 완료 · [독립 검토 통과](../research/2026-10-29-reciprocal-review/review.md) |
 | 해석학 · 이산수학 | [실수 지수와 비균등 차분](../research/2026-10-29-real-power-differences/note.md) | 증명 완료 · [독립 검토 통과](../research/2026-10-29-reciprocal-review/review-real.md) |
 | 조합론 · 해석학 · 확률론 | [로그 오목성·날카로운 경계·단봉성](../research/2026-10-29-turan-unimodality/note.md) | 증명 완료 · [독립 검토 통과](../research/2026-10-29-turan-review/review.md) |
+| 점근해석 · 조합론 | [고정된 a에서 최대 지수의 점근](../research/2026-10-29-fixed-a-argmax/note.md) | 증명 완료(보정항은 계산 관찰) · 자체 채점 |
 | 점근해석 · 조합론 | [비례 영역의 최대 지수와 포아송 모양 극한](../research/2026-10-29-proportional-argmax/note.md) | 증명 완료(보정항은 계산 관찰) · 자체 채점 |
 | 해석학 · 볼록기하 · 확률론 | [실수 지수 로그 오목성과 날카로운 곡률 경계](../research/2026-10-29-real-log-concavity/note.md) | 증명 완료 · [v1 검토: 수정 필요(경미)→v1.1 반영](../research/2026-10-29-real-log-concavity-review/review.md) |
 

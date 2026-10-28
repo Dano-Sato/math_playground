@@ -16,11 +16,13 @@
 | Q-008 | 교대 차분 합의 복소 지수 영점에는 어떤 구조가 있는가? | 복소해석학 | 대기 | [실수 영점 분류](../research/2026-10-29-real-power-differences/note.md) |
 | Q-009 | 실수 지수 교대합을 고차원 적분이나 심한 상쇄 없이 효율적으로 계산할 수 있는가? | 수치해석학 | 대기 | [적분 표현](../research/2026-10-29-real-power-differences/note.md) |
 | Q-010 | 양의 실수 지수 전체에서도 지수 방향의 로그 오목성이 성립하는가? | 해석학 · 확률론 | 해결 · v1 검토 수정 반영 | [날카로운 실수 곡률 경계](../research/2026-10-29-real-log-concavity/note.md) |
-| Q-011 | $a>1$에서 최대값을 갖는 정수 지수를 $n,a$로 정량적으로 예측할 수 있는가? | 조합론 · 점근해석 | 비례 영역 해결($a=\theta n$) · 고정 $a$ 영역 대기 | [단봉성 분류](../research/2026-10-29-turan-unimodality/note.md) · [실수 최대점](../research/2026-10-29-real-log-concavity/note.md) · [비례 영역 최대점](../research/2026-10-29-proportional-argmax/note.md) |
+| Q-011 | $a>1$에서 최대값을 갖는 정수 지수를 $n,a$로 정량적으로 예측할 수 있는가? | 조합론 · 점근해석 | 해결(비례 영역·고정 $a$ 영역) · 자체 채점 | [단봉성 분류](../research/2026-10-29-turan-unimodality/note.md) · [실수 최대점](../research/2026-10-29-real-log-concavity/note.md) · [비례 영역 최대점](../research/2026-10-29-proportional-argmax/note.md) · [고정 $a$ 최대점](../research/2026-10-29-fixed-a-argmax/note.md) |
 | Q-012 | 서로 다른 양의 차분 간격으로 바꾼 부분집합 교대합에도 지수 방향의 로그 오목성이 성립하는가? | 해석학 · 이산수학 | 해결(실수 지수 포함) · v1 검토 수정 반영 | [비균등 간격 확장](../research/2026-10-29-real-log-concavity/note.md) |
 | Q-013 | 균등 간격에서 $a=\theta n$, $n\to\infty$일 때 실수 최대점 $s^*$에 대해 $s^*/n$의 극한이 존재하는가? | 점근해석 | 해결 · 자체 채점(검토 미실시) | [$s^*\to s_\infty(\theta)$, 답 0](../research/2026-10-29-proportional-argmax/note.md) |
 | Q-014 | 지수 방향 곡률 $(\log D)''$에 대해 $0$과 $-\sum(s+i)^{-2}$ 사이를 잇는 날카로운 $a$-의존 상계가 있는가? | 해석학 | 대기 | [보편 곡률 경계](../research/2026-10-29-real-log-concavity/note.md) |
-| Q-015 | 고정된 $a>1$에서 $n\to\infty$일 때 실수 최대점 $s^*_n$은 $\log n$ 크기로 자라는가? 2차 항은? | 점근해석 | 대기 | [형식 계산](../research/2026-10-29-proportional-argmax/note.md) |
+| Q-015 | 고정된 $a>1$에서 $n\to\infty$일 때 실수 최대점 $s^*_n$은 $\log n$ 크기로 자라는가? 2차 항은? | 점근해석 | 해결 · 자체 채점(검토 미실시) | [$\log n+	frac12-\psi(a-1)$](../research/2026-10-29-fixed-a-argmax/note.md) |
 | Q-016 | 경계 $\theta=1/(e^k-1)$에서 큰 $n$의 정수 최대점은 $k$와 $k+1$ 중 어느 쪽인가? | 점근해석 | 대기 | [정수 최대점 정리](../research/2026-10-29-proportional-argmax/note.md) |
+| Q-017 | 중간 영역 $a=n^eta$ ($0<eta<1$)에서 최대 지수는? 비례 영역과 고정 영역을 잇는 단일 공식이 있는가? | 점근해석 | 대기 | [고정 영역](../research/2026-10-29-fixed-a-argmax/note.md) · [비례 영역](../research/2026-10-29-proportional-argmax/note.md) |
+| Q-018 | 고정 $a$ 영역의 $1/\log n$ 보정항 $\delta(a)$를 엄밀히 증명하고, 반정수 근처의 정수 최대점 규칙을 정할 수 있는가? | 점근해석 | 대기 | [주장 3](../research/2026-10-29-fixed-a-argmax/note.md) |
 
 에이전트는 이 목록에 없는 질문도 선택할 수 있습니다. 담당 배정은 조율자가 기록하며, 연구자가 독립적으로 공용 표를 수정하지 않습니다.
