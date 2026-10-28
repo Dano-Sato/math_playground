@@ -47,6 +47,13 @@ class WikiServerTests(unittest.TestCase):
                 self.assertIsNone(result["notes"][0]["score"])
                 self.assertEqual(len(result["warnings"]), 1)
 
+    def test_unreviewed_note_keeps_its_explicit_status(self):
+        path = self.root / "research/sample/note.md"
+        path.write_text("# 자체 점검 노트\n\n- 독립 검토: 미실시(작성 세션 자체 점검)\n\n## 결과\n자체 점검 통과", encoding="utf-8")
+        note = catalog(self.root)["notes"][0]
+        self.assertEqual(note["review_status"], "미실시")
+        self.assertIn("자체 점검", note["review_label"])
+
     def test_absent_metadata_is_unscored_without_error(self):
         meta, error = read_evaluation(self.root / "research/missing/meta.json")
         self.assertEqual((meta, error), ({}, None))

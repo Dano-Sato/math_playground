@@ -58,7 +58,7 @@ function renderNotes() {
       <div class="library-title"><h2 id="list-title">모든 연구 노트<span class="count-label" id="result-count"></span></h2><a class="helper-link" href="${documentRoute("wiki/Scoring.md")}">점수 기준 보기 ↗</a></div>
       <div class="filters"><div class="search-wrap"><input id="search" type="search" aria-label="연구 노트 검색" placeholder="제목, 분야, 요약으로 검색" value="${escapeHTML(filters.query)}" autocomplete="off"></div>
         <select id="field-filter" aria-label="분야 필터"><option value="">모든 분야</option>${allFields.map(field => `<option value="${escapeHTML(field)}" ${filters.field === field ? "selected" : ""}>${escapeHTML(field)}</option>`).join("")}</select>
-        <select id="review-filter" aria-label="검토 상태 필터"><option value="">모든 검토 상태</option>${["통과", "대기", "수정 필요"].map(review => `<option value="${review}" ${filters.review === review ? "selected" : ""}>${review === "통과" ? "검토 통과" : review}</option>`).join("")}</select>
+        <select id="review-filter" aria-label="검토 상태 필터"><option value="">모든 검토 상태</option>${["통과", "미실시", "대기", "수정 필요"].map(review => `<option value="${review}" ${filters.review === review ? "selected" : ""}>${review === "통과" ? "검토 통과" : review}</option>`).join("")}</select>
         <select id="sort" aria-label="연구 노트 정렬">${[["score-desc", "점수 높은순"], ["score-asc", "점수 낮은순"], ["recent", "최근 수정순"], ["title", "제목순"]].map(([value, label]) => `<option value="${value}" ${filters.sort === value ? "selected" : ""}>${label}</option>`).join("")}</select>
       </div>
       <div class="list-labels" aria-hidden="true"><span>성과 점수</span><span>연구 제목 · 분야</span><span class="review-label">검토 상태</span><span class="date-label">수정일</span></div>

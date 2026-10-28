@@ -17,7 +17,9 @@
 
 | 연구 | 핵심 결과 | 검토 |
 | --- | --- | --- |
-| [자명하지 않은 약수를 빼는 게임의 Grundy 값](../research/2026-10-29-nontrivial-divisor-game/note.md) | $n\mapsto n-d$ ($1<d<n$, $d\mid n$): 홀수 부분 17 이상이면 $g=v_2(n)$, 작은 홀수 부분 여덟 열의 예외를 완전 결정. OEIS 미등록. | 자체 채점 · 별도 검토 대상 |
+| [포아송 동률 경계와 유한 전환점](../research/2026-10-29-critical-mode-boundary/note.md) | Q-016: 큰 정수 지수 쪽이 선택되는 방향과 명시적 충분조건, 전환점 $a_{n,k}=n\theta_k+\theta_k+3/2-1/k+O(1/n)$. | 자체 채점 · 검토 미실시 |
+| [약수 뺄셈 게임의 하한 일반화](../research/2026-10-29-divisor-game-lower-bound/note.md) | Q-019: $c\le d<n$ 게임에서 $c=3$은 "2의 거듭제곱이 아니면 $g=v_2$"(손 증명), $c=5,8$ 완전 결정, 모든 $c$의 문턱값 존재 추측. | 자체 채점 · 검토 미실시 |
+| [자명하지 않은 약수를 빼는 게임의 Grundy 값](../research/2026-10-29-nontrivial-divisor-game/note.md) | $n\mapsto n-d$ ($1<d<n$, $d\mid n$): 홀수 부분 17 이상이면 $g=v_2(n)$, 작은 홀수 부분 여덟 열의 예외를 완전 결정. OEIS 미등록. 패배 위치는 Codeforces 1537D로 알려짐. | [v1 검토: 수정 필요 → v2 반영](../research/2026-10-29-nontrivial-divisor-game-review/review.md) |
 | [고정된 a에서 최대 지수의 점근](../research/2026-10-29-fixed-a-argmax/note.md) | Q-015·Q-011(고정 영역): $s^*_n=\log n+	frac12-\psi(a-1)+o(1)$, 정수 최대점은 그 근사의 반올림. | 자체 채점 · 검토 미실시 |
 | [비례 영역의 최대 지수와 포아송 모양 극한](../research/2026-10-29-proportional-argmax/note.md) | Q-013·Q-011(비례 영역): $a=\theta n$에서 지수 방향 모양이 포아송으로 수렴, 정수 최대점 $\lfloor\log(1+1/\theta)\rfloor+1$. | 자체 채점 · 검토 미실시 |
 | [실수 지수 로그 오목성과 날카로운 곡률 경계](../research/2026-10-29-real-log-concavity/note.md) | Q-010·012: 양의 실수 지수 전체와 비균등 간격에서 엄격한 로그 오목성과 양면 날카로운 곡률 경계. 정수 경계 재증명, 실수 단봉성. 로그 오목성은 Berwald–Borell 부등식의 직접적 따름정리임을 확인. | [v1 검토: 수정 필요(경미)→v1.1 반영](../research/2026-10-29-real-log-concavity-review/review.md) |

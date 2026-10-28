@@ -115,7 +115,7 @@ def catalog(root):
             if error:
                 warnings.append(f"{meta_path.relative_to(root).as_posix()}: {error}")
             review = text_label(header.get("독립 검토", "대기"))
-            review_status = "수정 필요" if "수정 필요" in review else "통과" if "통과" in review else "대기"
+            review_status = "미실시" if review.startswith("미실시") else "수정 필요" if "수정 필요" in review else "통과" if "통과" in review else "대기"
             notes.append({
                 "id": path.parent.name, "path": relative, "title": title,
                 "fields": [part.strip() for part in re.split(r"[,·]", text_label(header.get("분야", "미분류"))) if part.strip()],
