@@ -17,6 +17,7 @@
 
 | 연구 | 핵심 결과 | 검토 |
 | --- | --- | --- |
+| [자명하지 않은 약수를 빼는 게임의 Grundy 값](../research/2026-10-29-nontrivial-divisor-game/note.md) | $n\mapsto n-d$ ($1<d<n$, $d\mid n$): 홀수 부분 17 이상이면 $g=v_2(n)$, 작은 홀수 부분 여덟 열의 예외를 완전 결정. OEIS 미등록. | 자체 채점 · 별도 검토 대상 |
 | [고정된 a에서 최대 지수의 점근](../research/2026-10-29-fixed-a-argmax/note.md) | Q-015·Q-011(고정 영역): $s^*_n=\log n+	frac12-\psi(a-1)+o(1)$, 정수 최대점은 그 근사의 반올림. | 자체 채점 · 검토 미실시 |
 | [비례 영역의 최대 지수와 포아송 모양 극한](../research/2026-10-29-proportional-argmax/note.md) | Q-013·Q-011(비례 영역): $a=\theta n$에서 지수 방향 모양이 포아송으로 수렴, 정수 최대점 $\lfloor\log(1+1/\theta)\rfloor+1$. | 자체 채점 · 검토 미실시 |
 | [실수 지수 로그 오목성과 날카로운 곡률 경계](../research/2026-10-29-real-log-concavity/note.md) | Q-010·012: 양의 실수 지수 전체와 비균등 간격에서 엄격한 로그 오목성과 양면 날카로운 곡률 경계. 정수 경계 재증명, 실수 단봉성. 로그 오목성은 Berwald–Borell 부등식의 직접적 따름정리임을 확인. | [v1 검토: 수정 필요(경미)→v1.1 반영](../research/2026-10-29-real-log-concavity-review/review.md) |

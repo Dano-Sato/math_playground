@@ -10,6 +10,7 @@
 | [교대 이항합의 양수 표현과 안정적인 계산](../research/2026-10-29-reciprocal-binomial/note.md) | [meta.json](../research/2026-10-29-reciprocal-binomial/meta.json) | [독립 검토 통과](../research/2026-10-29-reciprocal-review/review.md) |
 | [실수 지수와 비균등 차분](../research/2026-10-29-real-power-differences/note.md) | [meta.json](../research/2026-10-29-real-power-differences/meta.json) | [독립 검토 통과](../research/2026-10-29-reciprocal-review/review-real.md) |
 | [로그 오목성·날카로운 경계·단봉성](../research/2026-10-29-turan-unimodality/note.md) | [meta.json](../research/2026-10-29-turan-unimodality/meta.json) | [독립 검토 통과](../research/2026-10-29-turan-review/review.md) |
+| [자명하지 않은 약수를 빼는 게임의 Grundy 값](../research/2026-10-29-nontrivial-divisor-game/note.md) | [meta.json](../research/2026-10-29-nontrivial-divisor-game/meta.json) | 미실시(자체 채점 10점, 별도 검토 대상) |
 | [고정된 a에서 최대 지수의 점근](../research/2026-10-29-fixed-a-argmax/note.md) | [meta.json](../research/2026-10-29-fixed-a-argmax/meta.json) | 미실시(자체 채점) |
 | [비례 영역의 최대 지수와 포아송 모양 극한](../research/2026-10-29-proportional-argmax/note.md) | [meta.json](../research/2026-10-29-proportional-argmax/meta.json) | 미실시(자체 채점) |
 | [실수 지수 로그 오목성과 날카로운 곡률 경계](../research/2026-10-29-real-log-concavity/note.md) | [meta.json](../research/2026-10-29-real-log-concavity/meta.json) | [v1 검토: 수정 필요(경미)→v1.1 반영](../research/2026-10-29-real-log-concavity-review/review.md) |

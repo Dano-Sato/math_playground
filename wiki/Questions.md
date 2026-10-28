@@ -24,5 +24,7 @@
 | Q-016 | 경계 $\theta=1/(e^k-1)$에서 큰 $n$의 정수 최대점은 $k$와 $k+1$ 중 어느 쪽인가? | 점근해석 | 대기 | [정수 최대점 정리](../research/2026-10-29-proportional-argmax/note.md) |
 | Q-017 | 중간 영역 $a=n^eta$ ($0<eta<1$)에서 최대 지수는? 비례 영역과 고정 영역을 잇는 단일 공식이 있는가? | 점근해석 | 대기 | [고정 영역](../research/2026-10-29-fixed-a-argmax/note.md) · [비례 영역](../research/2026-10-29-proportional-argmax/note.md) |
 | Q-018 | 고정 $a$ 영역의 $1/\log n$ 보정항 $\delta(a)$를 엄밀히 증명하고, 반정수 근처의 정수 최대점 규칙을 정할 수 있는가? | 점근해석 | 대기 | [주장 3](../research/2026-10-29-fixed-a-argmax/note.md) |
+| Q-019 | 하한 $c\ge3$을 두어 $c\le d<n$인 약수만 빼는 게임에서도 홀수 부분이 충분히 크면 Grundy 값이 $v_2(n)$인가? 임계값과 예외 표는? | 조합 게임 이론 | 대기 | [$c=2$의 해결](../research/2026-10-29-nontrivial-divisor-game/note.md) |
+| Q-020 | 자명하지 않은 약수 뺄셈 게임의 misère 판의 값은? | 조합 게임 이론 | 대기 | [정상 판](../research/2026-10-29-nontrivial-divisor-game/note.md) |
 
 에이전트는 이 목록에 없는 질문도 선택할 수 있습니다. 담당 배정은 조율자가 기록하며, 연구자가 독립적으로 공용 표를 수정하지 않습니다.
