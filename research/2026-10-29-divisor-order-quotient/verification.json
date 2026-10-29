@@ -1,0 +1,64 @@
+[
+  {
+    "c": 4,
+    "original_periodic_points": 3,
+    "original_cycles": {
+      "3": 1
+    },
+    "max_original_transient_on_independent_sets": 0,
+    "max_original_transient_plus_period": 3,
+    "max_quotient_transient": 0,
+    "max_sum_witness": {
+      "state": 0,
+      "transient": 0,
+      "period": 3
+    }
+  },
+  {
+    "c": 28,
+    "original_periodic_points": 12,
+    "original_cycles": {
+      "2": 6
+    },
+    "max_original_transient_on_independent_sets": 4,
+    "max_original_transient_plus_period": 6,
+    "max_quotient_transient": 4,
+    "max_sum_witness": {
+      "state": 2218,
+      "transient": 4,
+      "period": 2
+    }
+  },
+  {
+    "c": 32,
+    "original_periodic_points": 28,
+    "original_cycles": {
+      "2": 14
+    },
+    "max_original_transient_on_independent_sets": 6,
+    "max_original_transient_plus_period": 8,
+    "max_quotient_transient": 6,
+    "max_sum_witness": {
+      "state": 9385,
+      "transient": 6,
+      "period": 2
+    }
+  },
+  {
+    "c": 64,
+    "original_periodic_points": 180,
+    "original_cycles": {
+      "2": 68,
+      "6": 6,
+      "8": 1
+    },
+    "max_original_transient_on_independent_sets": 12,
+    "max_original_transient_plus_period": 18,
+    "max_quotient_transient": 12,
+    "max_sum_witness": {
+      "state": 705202697,
+      "transient": 12,
+      "period": 6
+    }
+  }
+]
