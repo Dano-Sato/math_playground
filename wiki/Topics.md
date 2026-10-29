@@ -8,6 +8,8 @@
 
 | 분야 | 노트 | 현재 상태 |
 | --- | --- | --- |
+| 조합 게임 이론 · 정수론 · 유한 상태 | [모든 하한의 승패 주기와 개수 공식](../research/2026-10-29-divisor-outcome-automaton/note.md) | 보편 정리 손 증명 · c≤64 계산 · 독립 검토 미실시 |
+| 조합 게임 이론 · 정수론 | [하한 4 약수 게임: 최적 문턱 87과 주기 3](../research/2026-10-29-divisor-four-period/note.md) | 전체 Grundy 증명(유한 계산 보조) · 승패 손 증명 · 독립 검토 미실시 |
 | 점근해석 · 조합론 · 확률론 | [포아송 동률 경계와 유한 전환점](../research/2026-10-29-critical-mode-boundary/note.md) | 증명 완료 · 자체 채점 · 독립 검토 미실시 |
 | 조합론 · 이산수학 | [유한 차분과 교대 이항합](../research/2026-10-29-finite-differences/note.md) | 자체 증명 완료 · 독립 검토 대기 |
 | 조합론 · 해석학 · 수치 계산 | [교대 이항합의 양수 표현과 안정적인 계산](../research/2026-10-29-reciprocal-binomial/note.md) | 증명 완료 · [독립 검토 통과](../research/2026-10-29-reciprocal-review/review.md) |

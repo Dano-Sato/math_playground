@@ -6,6 +6,8 @@
 
 | 연구 노트 | 평가 원본 | 증명 검토 |
 | --- | --- | --- |
+| [모든 하한의 약수 게임: 승패의 유한 상태와 유리수 로그 보정](../research/2026-10-29-divisor-outcome-automaton/note.md) | [meta.json](../research/2026-10-29-divisor-outcome-automaton/meta.json) | 미실시(자체 점검·자체 채점) |
+| [하한 4 약수 게임: 최적 문턱 87과 주기 3](../research/2026-10-29-divisor-four-period/note.md) | [meta.json](../research/2026-10-29-divisor-four-period/meta.json) | 미실시(자체 점검·자체 채점) |
 | [포아송 동률 경계와 유한 전환점](../research/2026-10-29-critical-mode-boundary/note.md) | [meta.json](../research/2026-10-29-critical-mode-boundary/meta.json) | 미실시(자체 점검·자체 채점) |
 | [유한 차분으로 보는 교대 이항합](../research/2026-10-29-finite-differences/note.md) | [meta.json](../research/2026-10-29-finite-differences/meta.json) | 대기 |
 | [교대 이항합의 양수 표현과 안정적인 계산](../research/2026-10-29-reciprocal-binomial/note.md) | [meta.json](../research/2026-10-29-reciprocal-binomial/meta.json) | [독립 검토 통과](../research/2026-10-29-reciprocal-review/review.md) |

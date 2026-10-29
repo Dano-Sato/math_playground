@@ -17,6 +17,8 @@
 
 | 연구 | 핵심 결과 | 검토 |
 | --- | --- | --- |
+| [모든 하한의 약수 게임: 승패의 유한 상태](../research/2026-10-29-divisor-outcome-automaton/note.md) | 모든 $c\ge2$에서 지수 방향 승패의 꼬리 주기 증명. 패배 위치 수는 $\lceil N/2\rceil+\alpha_c\log_2N+O_c(1)$, $\alpha_c$는 계산 가능한 양의 유리수. | 자체 채점 · 검토 미실시 |
+| [하한 4 약수 게임: 최적 문턱 87과 주기 3](../research/2026-10-29-divisor-four-period/note.md) | Q-019의 $c=4$ 해결: 전체 Grundy 공식, 최적 문턱 87, 지수 28 이후 3잔여류 규칙. 승패는 별도 손 증명. | 자체 채점 · 검토 미실시 |
 | [포아송 동률 경계와 유한 전환점](../research/2026-10-29-critical-mode-boundary/note.md) | Q-016: 큰 정수 지수 쪽이 선택되는 방향과 명시적 충분조건, 전환점 $a_{n,k}=n\theta_k+\theta_k+3/2-1/k+O(1/n)$. | 자체 채점 · 검토 미실시 |
 | [약수 뺄셈 게임의 하한 일반화](../research/2026-10-29-divisor-game-lower-bound/note.md) | Q-019: $c\le d<n$ 게임에서 $c=3$은 "2의 거듭제곱이 아니면 $g=v_2$"(손 증명), $c=5,8$ 완전 결정, 모든 $c$의 문턱값 존재 추측. | 자체 채점 · 검토 미실시 |
 | [자명하지 않은 약수를 빼는 게임의 Grundy 값](../research/2026-10-29-nontrivial-divisor-game/note.md) | $n\mapsto n-d$ ($1<d<n$, $d\mid n$): 홀수 부분 17 이상이면 $g=v_2(n)$, 작은 홀수 부분 여덟 열의 예외를 완전 결정. OEIS 미등록. 패배 위치는 Codeforces 1537D로 알려짐. | [v1 검토: 수정 필요 → v2 반영](../research/2026-10-29-nontrivial-divisor-game-review/review.md) |

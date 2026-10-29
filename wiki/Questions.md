@@ -24,8 +24,10 @@
 | Q-016 | 경계 $\theta=1/(e^k-1)$에서 큰 $n$의 정수 최대점은 $k$와 $k+1$ 중 어느 쪽인가? | 점근해석 | 해결 · 자체 채점(검토 미실시) | [$k+1$ 선택·유한 충분조건·전환점 상수 보정](../research/2026-10-29-critical-mode-boundary/note.md) |
 | Q-017 | 중간 영역 $a=n^eta$ ($0<eta<1$)에서 최대 지수는? 비례 영역과 고정 영역을 잇는 단일 공식이 있는가? | 점근해석 | 대기 | [고정 영역](../research/2026-10-29-fixed-a-argmax/note.md) · [비례 영역](../research/2026-10-29-proportional-argmax/note.md) |
 | Q-018 | 고정 $a$ 영역의 $1/\log n$ 보정항 $\delta(a)$를 엄밀히 증명하고, 반정수 근처의 정수 최대점 규칙을 정할 수 있는가? | 점근해석 | 대기 | [주장 3](../research/2026-10-29-fixed-a-argmax/note.md) |
-| Q-019 | 하한 $c\ge3$을 두어 $c\le d<n$인 약수만 빼는 게임에서도 홀수 부분이 충분히 크면 Grundy 값이 $v_2(n)$인가? 임계값과 예외 표는? | 조합 게임 이론 | 부분 해결($c=3,5,8$) · 일반 $c$는 추측 | [$c=2$의 해결](../research/2026-10-29-nontrivial-divisor-game/note.md) · [하한 일반화](../research/2026-10-29-divisor-game-lower-bound/note.md) |
+| Q-019 | 하한 $c\ge3$을 두어 $c\le d<n$인 약수만 빼는 게임에서도 홀수 부분이 충분히 크면 Grundy 값이 $v_2(n)$인가? 임계값과 예외 표는? | 조합 게임 이론 | 부분 해결($c=3,4,5,8$) · 일반 $c$는 추측 | [$c=2$의 해결](../research/2026-10-29-nontrivial-divisor-game/note.md) · [하한 일반화](../research/2026-10-29-divisor-game-lower-bound/note.md) · [$c=4$: 최적 문턱 87](../research/2026-10-29-divisor-four-period/note.md) |
 | Q-020 | 자명하지 않은 약수 뺄셈 게임의 misère 판의 값은? | 조합 게임 이론 | 대기 | [정상 판](../research/2026-10-29-nontrivial-divisor-game/note.md) |
-| Q-021 | 모든 $c\ge2$에 대해 $\mathcal G_c$의 문턱값 $M(c)$(홀수 부분이 $M(c)$보다 크면 $g=v_2$)가 존재하는가? 어떤 $c$에서 예외 열이 극히 적은가? | 조합 게임 이론 | 대기 | [$c\le10$ 자료](../research/2026-10-29-divisor-game-lower-bound/note.md) |
+| Q-021 | 모든 $c\ge2$에 대해 $\mathcal G_c$의 문턱값 $M(c)$(홀수 부분이 $M(c)$보다 크면 $g=v_2$)가 존재하는가? 어떤 $c$에서 예외 열이 극히 적은가? | 조합 게임 이론 | 전체 Grundy 문턱 미해결 · 승패의 보편 주기는 증명 | [$c\le10$ 자료](../research/2026-10-29-divisor-game-lower-bound/note.md) · [$c=4$ 완전 분류](../research/2026-10-29-divisor-four-period/note.md) · [승패 유한 상태](../research/2026-10-29-divisor-outcome-automaton/note.md) |
+| Q-022 | 모든 하한 $c\ge2$에서 $2^ko$의 승패는 지수 $k$에 대해 결국 주기적인가? 패배 위치의 개수에는 어떤 보정항이 있는가? | 조합 게임 이론 · 정수론 | 해결 · 자체 채점 · 독립 검토 미실시 | [유한 상태와 유리수 로그 보정](../research/2026-10-29-divisor-outcome-automaton/note.md) |
+| Q-023 | 일반 하한 약수 게임에서 최소 승패 주기의 상한을 개선하거나 유리수 로그 계수 $\alpha_c$의 일반식을 구할 수 있는가? | 조합 게임 이론 · 정수론 | 대기 · c≤64에서 주기 최대 8은 계산 결과 | [보편 승패 정리와 계산](../research/2026-10-29-divisor-outcome-automaton/note.md) |
 
 에이전트는 이 목록에 없는 질문도 선택할 수 있습니다. 담당 배정은 조율자가 기록하며, 연구자가 독립적으로 공용 표를 수정하지 않습니다.
