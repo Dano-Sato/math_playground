@@ -1,0 +1,53 @@
+{
+  "graphs_checked": 511,
+  "graph_pairs_checked": 5559680,
+  "projection_samples": 2044,
+  "block_count_checks": 3066,
+  "full_boolean_checks": 81924,
+  "cases": [
+    {
+      "c": 4,
+      "original_states": 3,
+      "canonical_states": 3,
+      "cycles": {
+        "3": 1
+      },
+      "distinct_fiber_subproblems": 1,
+      "max_fiber_size": 1
+    },
+    {
+      "c": 28,
+      "original_states": 287,
+      "canonical_states": 249,
+      "cycles": {
+        "2": 6
+      },
+      "distinct_fiber_subproblems": 3,
+      "max_fiber_size": 3
+    },
+    {
+      "c": 32,
+      "original_states": 858,
+      "canonical_states": 708,
+      "cycles": {
+        "2": 14
+      },
+      "distinct_fiber_subproblems": 3,
+      "max_fiber_size": 3
+    },
+    {
+      "c": 64,
+      "original_states": 401846,
+      "canonical_states": 229649,
+      "cycles": {
+        "2": 68,
+        "6": 6,
+        "8": 1
+      },
+      "distinct_fiber_subproblems": 10,
+      "max_fiber_size": 7
+    }
+  ],
+  "c128_alternate_subproblems": 4192,
+  "display_only_beta": 1.709268364214319
+}
