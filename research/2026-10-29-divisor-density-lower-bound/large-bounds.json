@@ -1,0 +1,32 @@
+[
+  {
+    "r": 512,
+    "max_weight": 33,
+    "weight_square_sum": 52096,
+    "capacity_bound": "410/17"
+  },
+  {
+    "r": 1024,
+    "max_weight": 41,
+    "weight_square_sum": 127776,
+    "capacity_bound": "1507/38"
+  },
+  {
+    "r": 4096,
+    "max_weight": 64,
+    "weight_square_sum": 736428,
+    "capacity_bound": "2931/25"
+  },
+  {
+    "r": 16384,
+    "max_weight": 97,
+    "weight_square_sum": 4081812,
+    "capacity_bound": "3857/11"
+  },
+  {
+    "r": 32768,
+    "max_weight": 121,
+    "weight_square_sum": 9493224,
+    "capacity_bound": "15839/26"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "certificate": {
+    "depth": 12,
+    "lower_base": "19271/12500",
+    "upper_base": "154171/100000",
+    "terms": 16
+  },
+  "graphs_checked": 256,
+  "boolean_states": 131070,
+  "deletion_cases": 40,
+  "decomposition_cases": 255,
+  "complete_level_cases": 12,
+  "canonical_counts_compared": 5
+}

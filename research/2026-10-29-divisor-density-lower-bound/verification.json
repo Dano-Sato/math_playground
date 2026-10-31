@@ -1,0 +1,11 @@
+{
+  "direct_reverse_columns": 2080,
+  "complete_boolean_states": 8190,
+  "complete_cycles": 25,
+  "saved_cycles": 96,
+  "saved_cycle_states": 223,
+  "divisor_cases": 4096,
+  "harmonic_cases": 128,
+  "geometric_cases": 33,
+  "large_sieve_cases": 5
+}
